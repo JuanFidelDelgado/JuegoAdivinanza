@@ -43,35 +43,35 @@
         android:layout_marginStart="100dp"
         android:layout_marginTop="50dp"
         android:layout_marginEnd="100dp"
-        android:text="Comenzar"
+        android:text="Probar"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/lblTitulo" />
+        app:layout_constraintTop_toBottomOf="@+id/lblTitulo"
+        tools:ignore="DuplicateClickableBoundsCheck" />
 
     <TextView
         android:id="@+id/lblNumero"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="70dp"
-        android:layout_marginTop="120dp"
+        android:layout_marginTop="30dp"
         android:layout_marginEnd="70dp"
-        android:hint="TextView"
-        android:textSize="48sp"
+        android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtNumero" />
 
-    <Button
-        android:id="@+id/btnProbar"
-        android:layout_width="150dp"
-        android:layout_height="48dp"
-        android:layout_marginStart="100dp"
-        android:layout_marginTop="50dp"
-        android:layout_marginEnd="100dp"
-        android:enabled="false"
-        android:text="Probar"
+    <TextView
+        android:id="@+id/lblNumero1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="70dp"
+        android:textSize="24sp"
+        android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txtNumero" />
+        app:layout_constraintTop_toBottomOf="@+id/lblNumero" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
